@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="=IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <title>EBAC MODAS</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>EBAC MODAS</h1>
+            <form>
+                <img src="./carrinho.png" />
+                <button type="submit">Carrinho</button>
+            </form>
+        </div>
+        <div class="botao-menu">
+            <button type="button">Abrir Menu</button>
+        </div>
+        <nav class="container">
+            <ul class="menu">
+                <li>
+                    <h3>FEMININO</h3>
+                    <ul class="submenu">
+                        <li>
+                            <a href="#">Roupas</a>
+                        </li>
+                        <li>
+                            <a href="#">Calçados</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <h3>MASCULINO</h3>
+                    <ul class="submenu">
+                        <li>
+                            <a href="#">Roupas</a>
+                        </li>
+                        <li>
+                            <a href="#">Calçados</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <h3>ACESSORIOS</h3>
+                    <ul class="submenu">
+                        <li>
+                            <a href="#">Relogios</a>
+                        </li>
+                        <li>
+                            <a href="#">Joias</a>
+                        </li>
+                        <li>
+                            <a href="#">Bolsas e Carteiras</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <h3>PROMOÇÕES</h3>
+                    <ul class="submenu">
+                        <li>
+                            <a href="#">liquidação de verão</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <div class="clear"></div>
+        </nav>
+    </header>
+
+    <div class="container front">
+        <section class="destaque">
+            <h2>Sobre a loja</h2>
+            <article class="produto">
+                <a href="#">
+                    <img src="./loja.png" />
+                <h6>
+                    Tudo começou com um sonho, e hoje a Ebac Modas é uma das maiores lojas de roupas e acessorios do Brasil.
+                </h6>
+                </a>
+            </article>
+        </section>
+    </div>        
+    <div class="container conteudo">
+        <main>
+            <section>
+                    <h2>Alguns de nossos produtos</h2>
+                    <div class="produtos">
+                    <article class="produto">
+                        <a href="#">
+                            <img src="./bolsa.png" />
+                        <h3>
+                            Bolsa feminina azul 
+                            <p>
+                                R$ 150,00
+                            </p>                            
+                        </h3>
+                        <button type="submit">Adicionar ao carrinho</button>
+                        </a>
+                    </article>
+                    <article class="produto">
+                        <a href="#">
+                            <img src="./bone.jpg" />
+                        <h3>
+                            Bone na cor preta 
+                            <p>
+                            R$ 100,00
+                            </p>
+                        </h3>
+                        <button type="submit">Adicionar ao carrinho</button>
+                        </a>
+                    </article>
+                    <article class="produto">
+                        <a href="#">
+                            <img src="./camisas.png" />
+                        <h3>
+                            Camisa masculina cinza 
+                            <p>
+                            R$ 80,00
+                            </p>
+                        </h3>
+                        <button type="submit">Adicionar ao carrinho</button>
+                        </a>
+                    </article>
+                    <article class="produto">
+                        <a href="#">
+                            <img src="./sunglasses.png" />
+                        <h3>
+                            Oculos aviador 
+                            <p>
+                            R$ 400,00
+                            </p>
+                        </h3>
+                        <button type="submit">Adicionar ao carrinho</button>
+                        </a>
+                    </div>
+                </article>
+            </section>
+        </main>
+    </div>    
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function() {
+            $('.botao-menu button').click(function() {
+                $('.menu').slideToggle();
+            })
+        })
+    </script>
+</body>
+</html>
