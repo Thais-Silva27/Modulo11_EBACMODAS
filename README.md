@@ -19,7 +19,7 @@ Exemplo: https://fake-api-tau.vercel.app/ebac_sports/bola.webp
 
 ________________________________________________________________________________________________________________________________________________________________
 
-O que foi aprendido nesse modulo:
+O que foi estudado neste modulo:
 
 * Conceito de viewport e como ele se relaciona com a visualização de um site em diferentes dispositivos, como celulares, tablets e computadores.
 * Uso de unidades de medidas relativas e absolutas.
